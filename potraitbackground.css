@@ -1,0 +1,40 @@
+div{
+    margin-left: 200px;
+    margin-top: 40px;
+    width: 700px;
+    height: 400px;
+    font-size: smaller;
+    font-weight: bolder;
+    
+}
+div img{
+    position: absolute;
+    width: 700px;
+    height: 550px;
+    opacity: 50%;
+    border: 1px solid black;
+}
+.name input{
+    position: absolute;
+    margin-top: 140px;
+    height: 15px;
+    width: 65px;
+     border: 2px solid black;
+     transition: all;
+     transition-duration: 1s;
+     background-color: rgba(128, 128, 128, 0.527);
+}
+.name input:focus{
+    width: 250px;
+}
+::placeholder{
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+
+}
+h3{
+    position:absolute;
+    margin-left: 300px;
+    margin-top: 140px;
+}
